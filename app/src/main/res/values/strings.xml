@@ -9,4 +9,7 @@
     <string name="personalized_biometric">Personalized \nbiometric</string>
     <string name="single_device_nbiometric">Single-device \nbiometric</string>
     <string name="dummy">Dummy</string>
+    <string name="sign_in_instead">Sign in instead?</string>
+    <string name="create_account">Create account</string>
+
 </resources>

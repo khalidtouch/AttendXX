@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SelectionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.AuthBaseActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

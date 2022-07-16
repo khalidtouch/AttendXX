@@ -1,5 +1,6 @@
 package com.gigaxysafe.attendxx
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.gigaxysafe.attendxx.databinding.ActivityMainBinding
@@ -12,5 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+        binding?.btnGetStarted?.setOnClickListener {
+            startActivity(Intent(this, SelectionActivity::class.java))
+        }
     }
 }
