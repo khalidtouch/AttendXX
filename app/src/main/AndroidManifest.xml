@@ -24,6 +24,9 @@
         <activity
             android:name=".auth.AuthBaseActivity"
             android:exported="true" />
+        <activity
+            android:name=".personalizeduser.PersonalizedUserBaseActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
