@@ -13,5 +13,10 @@
     <string name="create_account">Create account</string>
     <string name="use_the_fingerprint_sensor_to_take_your_attendance">Use the fingerprint sensor to take your attendance</string>
     <string name="future_leaders_institution">Future Leaders Institution</string>
+    <string name="take_your_attendance">Take your attendance</string>
+    <string name="home">Home</string>
+    <string name="biometrics">Biometrics</string>
+    <string name="profile">Profile</string>
+    <string name="me">Me</string>
 
 </resources>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_gravity="bottom"
     app:layout_behavior="@string/bottom_sheet_behavior">
 
@@ -57,8 +57,9 @@
         <ImageView
             android:id="@+id/imgFingerprint"
             android:layout_width="220dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="300dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="200dp"
+            android:layout_marginTop="20dp"
             app:tint="@color/attend_orange"
             android:src="@drawable/ic_fingerprint"
             app:layout_constraintBottom_toBottomOf="parent"

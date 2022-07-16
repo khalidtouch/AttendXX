@@ -2,6 +2,9 @@ package com.gigaxysafe.attendxx.personalizeduser
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
+import com.gigaxysafe.attendxx.R
 import com.gigaxysafe.attendxx.databinding.ActivityPersonalizedUserBaseBinding
 
 class PersonalizedUserBaseActivity : AppCompatActivity() {
@@ -12,5 +15,10 @@ class PersonalizedUserBaseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityPersonalizedUserBaseBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.PersonalizedUserBaseFragmentHost)
+                    as NavHostFragment
+        binding?.PersonalizedUserBottomNav?.setupWithNavController(navHostFragment.navController)
     }
 }

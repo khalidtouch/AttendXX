@@ -5,16 +5,19 @@
       <map>
         <entry key="app/src/main/res/drawable/background_selection_orange.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/background_selection_white.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/action_compound_view.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_auth_base.xml" value="0.14056563951034193" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_personalized_user_base.xml" value="0.148" />
+        <entry key="app/src/main/res/layout/activity_personalized_user_base.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_selection.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_biometric_information.xml" value="0.2099187687045746" />
         <entry key="app/src/main/res/layout/fragment_create_account.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_history.xml" value="0.148" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.142368533561351" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/fragment_take_attendance.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_take_attendance.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/view_touch_fingerprint_sensor.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/menu_personalized_user_bottom_nav.xml" value="0.142368533561351" />
       </map>
     </option>
   </component>
