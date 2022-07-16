@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AttendX</string>
+    <string name="get_started">Get started</string>
+    <string name="attendx">AttendX</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account_instead">Create account instead?</string>
+    <string name="personalized_biometric">Personalized \nbiometric</string>
+    <string name="single_device_nbiometric">Single-device \nbiometric</string>
+    <string name="dummy">Dummy</string>
+</resources>
