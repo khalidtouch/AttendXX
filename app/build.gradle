@@ -4,6 +4,7 @@ plugins {
     id 'androidx.navigation.safeargs'
     id 'kotlin-kapt'
     id 'kotlin-android-extensions'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
@@ -73,5 +74,10 @@ dependencies {
 
     //cardview
     implementation "androidx.cardview:cardview:1.0.0"
+
+    //google play
+    def google_version = '17.0.0'
+    implementation "com.google.android.gms:play-services-maps:$google_version"
+    implementation "com.google.android.gms:play-services-location:$google_version"
 
 }

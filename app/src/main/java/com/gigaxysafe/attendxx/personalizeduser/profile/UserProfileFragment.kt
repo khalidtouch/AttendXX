@@ -1,4 +1,4 @@
-package com.gigaxysafe.attendxx.personalizeduser
+package com.gigaxysafe.attendxx.personalizeduser.profile
 
 import android.os.Bundle
 import android.view.View

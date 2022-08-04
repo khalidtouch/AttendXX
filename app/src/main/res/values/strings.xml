@@ -5,11 +5,11 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="sign_in">Sign in</string>
-    <string name="create_account_instead">Create account instead?</string>
+    <string name="create_account_instead">Create account instead? Click here</string>
     <string name="personalized_biometric">Personalized \nbiometric</string>
     <string name="single_device_nbiometric">Single-device \nbiometric</string>
     <string name="dummy">Dummy</string>
-    <string name="sign_in_instead">Sign in instead?</string>
+    <string name="sign_in_instead">Sign in instead? Click here</string>
     <string name="create_account">Create account</string>
     <string name="use_the_fingerprint_sensor_to_take_your_attendance">Use the fingerprint sensor to take your attendance</string>
     <string name="future_leaders_institution">Future Leaders Institution</string>
@@ -18,5 +18,6 @@
     <string name="biometrics">Biometrics</string>
     <string name="profile">Profile</string>
     <string name="me">Me</string>
+    <string name="david_claire">David, Claire</string>
 
 </resources>

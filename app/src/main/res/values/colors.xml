@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="attend_orange">#ffed6b33</color>
+    <color name="attend_error">#CF0A1A</color>
+    <color name="attend_success">#1DDC30</color>
 </resources>

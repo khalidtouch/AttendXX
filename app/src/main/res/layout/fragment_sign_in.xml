@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".auth.AuthBaseActivity"
-    android:background="@color/attend_orange">
+    android:background="@color/attend_orange"
+    tools:context=".auth.AuthBaseActivity">
 
 
-    <com.google.android.material.textfield.TextInputEditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/CreateAccountEmailTextField"
-        style="@style/TextAppearance.AppCompat.Medium"
+        style="@style/Headline4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -19,17 +19,25 @@
         android:background="@color/white"
         android:fontFamily="@font/grenze_regular"
         android:hint="@string/email"
-        android:padding="12dp"
         app:layout_constraintBottom_toTopOf="@+id/CreateAccountPasswordTextField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CreateAccountEmailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
 
-    <com.google.android.material.textfield.TextInputEditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/CreateAccountPasswordTextField"
-        style="@style/TextAppearance.AppCompat.Medium"
+        style="@style/Headline4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -38,18 +46,28 @@
         android:background="@color/white"
         android:fontFamily="@font/grenze_regular"
         android:hint="@string/password"
-        android:padding="12dp"
+        app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CreateAccountEmailTextField" />
+        app:layout_constraintTop_toBottomOf="@+id/CreateAccountEmailTextField">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CreateAccountPasswordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSignIn"
         style="@style/TextAppearance.AttendX.Button"
-        android:layout_width="180dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="92dp"
+        android:layout_marginEnd="8dp"
         android:paddingStart="16dp"
         android:paddingTop="8dp"
         android:paddingEnd="16dp"
@@ -72,6 +90,7 @@
         android:gravity="center"
         android:text="@string/create_account_instead"
         android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

@@ -6,15 +6,18 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.gigaxysafe.attendxx.personalizeduser.HomeFragment"
+        android:name="com.gigaxysafe.attendxx.personalizeduser.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_takeAttendanceFragment"
             app:destination="@id/takeAttendanceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_createOrganizationFragment"
+            app:destination="@id/createOrganizationFragment" />
     </fragment>
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.gigaxysafe.attendxx.personalizeduser.HistoryFragment"
+        android:name="com.gigaxysafe.attendxx.personalizeduser.history.HistoryFragment"
         android:label="HistoryFragment" />
     <fragment
         android:id="@+id/takeAttendanceFragment"
@@ -29,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/userProfileFragment"
-        android:name="com.gigaxysafe.attendxx.personalizeduser.UserProfileFragment"
+        android:name="com.gigaxysafe.attendxx.personalizeduser.profile.UserProfileFragment"
         android:label="UserProfileFragment" />
     <fragment
         android:id="@+id/biometricInformationFragment"
@@ -38,5 +41,13 @@
         <action
             android:id="@+id/action_biometricInformationFragment_to_takeAttendanceFragment"
             app:destination="@id/takeAttendanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createOrganizationFragment"
+        android:name="com.gigaxysafe.attendxx.personalizeduser.createorganization.CreateOrganizationFragment"
+        android:label="CreateOrganizationFragment" >
+        <action
+            android:id="@+id/action_createOrganizationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 </navigation>

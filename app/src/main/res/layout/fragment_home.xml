@@ -19,6 +19,7 @@
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/materialTextView2"
+        style="@style/Subtitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
@@ -26,6 +27,7 @@
         android:text="Create \norganization"
         android:textColor="@color/black"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/HomeActionCreateOrganization"
         app:layout_constraintStart_toStartOf="@+id/HomeActionCreateOrganization"
         app:layout_constraintTop_toBottomOf="@+id/HomeActionCreateOrganization" />
 
@@ -43,6 +45,7 @@
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/materialTextView3"
+        style="@style/Subtitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
@@ -51,6 +54,7 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/HomeActionJoinOrganization"
+        app:layout_constraintStart_toStartOf="@+id/HomeActionJoinOrganization"
         app:layout_constraintTop_toBottomOf="@+id/HomeActionJoinOrganization" />
 
 
@@ -87,6 +91,7 @@
             android:text="@string/take_your_attendance"
             android:textColor="@color/black"
             android:textSize="16sp"
+            style="@style/Subtitle2"
             android:textStyle="bold" />
     </LinearLayout>
 

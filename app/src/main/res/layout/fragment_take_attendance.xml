@@ -15,8 +15,8 @@
             android:id="@+id/tvTag"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/grenze_bold"
             android:layout_marginTop="45dp"
+            android:fontFamily="@font/grenze_bold"
             android:gravity="center_horizontal"
             android:text="Attendance on: "
             android:textStyle="bold"
@@ -43,11 +43,11 @@
             android:id="@+id/tvAttendanceInstruction"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/grenze_bold"
-            android:textColor="@color/attend_orange"
-            android:gravity="center_horizontal"
             android:layout_marginTop="100dp"
+            android:fontFamily="@font/grenze_bold"
+            android:gravity="center_horizontal"
             android:text="@string/use_the_fingerprint_sensor_to_take_your_attendance"
+            android:textColor="@color/attend_orange"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -58,17 +58,14 @@
             android:id="@+id/imgFingerprint"
             android:layout_width="220dp"
             android:layout_height="110dp"
-            android:layout_marginBottom="200dp"
             android:layout_marginTop="20dp"
-            app:tint="@color/attend_orange"
+            android:layout_marginBottom="200dp"
             android:src="@drawable/ic_fingerprint"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvAttendanceInstruction" />
-
-
+            app:layout_constraintTop_toBottomOf="@+id/tvAttendanceInstruction"
+            app:tint="@color/attend_orange" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
